@@ -34,7 +34,7 @@
         <p>Р - безупречный |=> μ(х) = 1, если х = 1, иначе 0;</p>
         <p>US - неудовлетворительный |=> μ(x) = 1 – х.</p>
       </div>
-      <button-next :total_step='total_step' :current_step='current_step' label='Начать выполнение лабораторной работы'/>
+      <button-next label='Начать выполнение лабораторной работы'/>
     </div>
 </template>
 

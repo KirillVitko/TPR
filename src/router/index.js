@@ -8,6 +8,7 @@ import Condition from '../components/lab3.2/Condition.vue'
 import Question from '../components/lab3.2/Question.vue'
 import Function from '../components/lab3.2/Function.vue'
 import Alternative from '../components/lab3.2/Alternative.vue'
+import Assessment from '../components/lab3.2/Assessment.vue'
 
 Vue.use(VueRouter)
 
@@ -16,6 +17,7 @@ Vue.component('condition', Condition)
 Vue.component('question', Question)
 Vue.component('function', Function)
 Vue.component('alternative', Alternative)
+Vue.component('assessment', Assessment)
 
 export const bus = new Vue()
 
