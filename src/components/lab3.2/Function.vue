@@ -1,7 +1,5 @@
 <template>
   <div>
-    {{ criterion.koef }}
-    {{ array }}
     <p>Критерий: {{ criterion.description }}</p>
     <p>График функции принадлежности данного критерия:</p>
     <img :src="criterion.path" alt="график" align="middle" width="700"/>

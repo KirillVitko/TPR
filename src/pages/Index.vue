@@ -1,6 +1,5 @@
 <template>
   <div class='q-pa-md'>
-    {{ mark }}
     <q-stepper
       v-model='current_step'
       header-nav

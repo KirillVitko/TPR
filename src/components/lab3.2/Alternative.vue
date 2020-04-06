@@ -1,8 +1,5 @@
 <template>
   <div class="goal">
-    {{ array2 }}
-    {{ array3 }}
-    {{ array4 }}
     <p>Ранее в процессе выполнения были получены оценки альтернативы {{ alternative.description }} по всем критериям:</p>
     <q-table
       class='table'
